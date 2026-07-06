@@ -1,16 +1,6 @@
 import Explorebtn from "@/components/Explorebtn";
 import EventCard from "@/components/EventCard";
-const event = [
-  {
-    image: "/images/event1.png",
-    title: "Event 1",
-    slug: "event-1",
-    location: "locatio-1",
-    date: "Date-1",
-    time: "time-1",
-  },
-  { image: "/images/event2.png", title: "Event 2" },
-];
+import { events } from "@/lib/constants";
 export default function Home() {
   return (
     <section className="">
@@ -26,8 +16,8 @@ export default function Home() {
         <h3>Featured Events</h3>
 
         <ul className="events">
-          {event.map((event) => (
-            <li key={event.title}>
+          {events.map((event) => (
+            <li key={event.slug}>
               <EventCard {...event} />
             </li>
           ))}
