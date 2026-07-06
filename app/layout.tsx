@@ -43,7 +43,7 @@ export default function RootLayout({
         <div style={{ zIndex: -1, position: "absolute", inset: 0, top: 0 }}>
           <LightRays
             raysOrigin="top-center"
-            raysColor="#ffffff"
+            raysColor="#01e645"
             raysSpeed={1}
             lightSpread={2}
             rayLength={3}
