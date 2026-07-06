@@ -17,7 +17,7 @@ export const events = [
   },
   {
     title: "Tech Meetup Nairobi",
-    image: "/images/event1.png",
+    image: "/images/event3.png",
     slug: "tech-meetup-nairobi",
     location: "Nairobi, Kenya",
     date: "September 27, 2026",
@@ -25,10 +25,26 @@ export const events = [
   },
   {
     title: "React Summit Africa",
-    image: "/images/event2.png",
+    image: "/images/event4.png",
     slug: "react-summit-africa",
     location: "Cape Town, South Africa",
-    date: "December 5, 2026",
+    date: "October 20, 2026",
+    time: "10:00 AM SAST",
+  },
+  {
+    title: "Typescript Conference 2026",
+    image: "/images/event5.png",
+    slug: "typescript-conference-2026",
+    location: "Amazon, USA",
+    date: "November 14, 2026",
+    time: "3:00 PM SAST",
+  },
+  {
+    title: "AI & ML Summit",
+    image: "/images/event6.png",
+    slug: "ai-ml-summit",
+    location: "Cape Town, South Africa",
+    date: "December 18, 2026",
     time: "10:00 AM SAST",
   },
 ];
